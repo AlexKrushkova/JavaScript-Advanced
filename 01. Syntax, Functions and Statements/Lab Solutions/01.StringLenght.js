@@ -5,4 +5,4 @@ function solve(x, y, z){
     console.log(avrg);
 }
 
-solve('chocolate', 'ice-cream', 'cake');
+// solve('chocolate', 'ice-cream', 'cake');
