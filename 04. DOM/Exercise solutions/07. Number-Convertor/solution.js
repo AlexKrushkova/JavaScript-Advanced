@@ -13,6 +13,7 @@ function solve() {
     console.log(optionList.value, `<= select`);
 
     let result;
+    
     if (optionList.value === "binary") {
       result = (Number(input.value)).toString(2);
     } else {

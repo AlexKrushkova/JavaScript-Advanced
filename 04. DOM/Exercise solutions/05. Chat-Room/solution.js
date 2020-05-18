@@ -12,7 +12,6 @@ function solve() {
       newElement.classList.add('message', 'my-message');
 
       messageField.appendChild(newElement);
-
       input.value = '';
    })
 }
