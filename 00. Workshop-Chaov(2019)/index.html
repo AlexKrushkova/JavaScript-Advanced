@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background: #000;
+        }
+
+        .stars {
+            z-index: 0;
+            background-image: url("/assets/stars-3.png");
+            background-repeat: repeat;
+            background-position-x: 0;
+            background-position-y: 0;
+            background-size: 400px;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        .stars+.stars {
+            background-size: 500px;
+        }
+
+        .stars+.stars+.stars {
+            background-size: 700px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="far" class="stars"></div>
+    <div id="mid" class="stars"></div>
+    <div id="near" class="stars"></div>
+
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
