@@ -149,4 +149,4 @@ function mySolution() {
         document.getElementById('inputSection').children[0].value = "";
         document.getElementById('inputSection').children[1].children[1].value = "";
     }
-}
+} 
